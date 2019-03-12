@@ -1,0 +1,160 @@
+@charset 'UTF-8';
+
+#header{
+	width: 100%;
+}
+.header-top
+{
+	height: 30px;
+	background-color: #EE1C24;
+}
+.top-con{
+	width: 1180px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+.top-con a{
+	color: #FFB4B6;
+	font-size: 12px;
+} 
+.top-con a:hover{
+	color: #FFF;
+}
+.top-con ul li{
+	float: left;
+	padding-right: 14px;
+}
+.top-con div{
+	float: right;
+	padding-right: 30px;
+}
+.top-con div a{
+	margin-left: 14px;
+}
+.header-logo{
+	height: 152px;
+	background-color: #EE1C24; 
+}
+.logo-box{
+	width: 1180px;
+	height: 122px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.bg-logo{
+	width: 300px;
+	margin: 0 auto;
+}
+.header-nav{
+	height: 58px;
+	background-color: #111;
+}
+.nav-box{
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-box a{
+	color: #DCDCDC;
+	display: inline-block;
+	font-size: 18px;
+	padding: 0 8px;
+}
+.nav-box a:hover{
+	color: #FF3235;
+}
+.nav-rayli,.nav-line,.nav-search{
+	float: left;
+}
+.nav-rayli{
+	padding-top: 18px;
+}
+.nav-line{
+	width: 15px;
+	height: 20px;
+	border-right: 1px solid #777;
+	margin: 22px 15px 0 0;
+}
+.search-show{
+	display: block;
+	width: 2px;
+	height: 18px;
+	background-image: url(../images/search.jpg);
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+	cursor: pointer;
+}
+.nav-search{
+	z-index: 1;
+}
+.nav-search form input{
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	width: 146px;
+	height: 30px;
+	border: 0;
+	border-radius: 30px;
+	outline: 0;
+	text-indent: 10px;
+	background-color: #343434;
+	color: #FFF;
+	display: none;
+}
+.search-show:focus + .nav-search form input{
+	display: block;
+}
+.phone{
+	height: 50px;
+}
+.phone-con{
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+}
+.phone-con ul{
+	padding: 10px 0;
+}
+.phone-con ul li{
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-right: 20px;
+	padding-left: 30px;
+	line-height: 30px;
+	position: relative;
+}
+.phone-con ul li:hover{
+	font-weight: bold;
+}
+.phone-con ul li:hover a{
+	color: #FF3235;
+}
+.phone-con ul .n17_01{
+	background: url("../images/n17_code_icon01.png") no-repeat 4px 0px/23px;
+}
+.phone-con ul .n17_01:hover{
+	background: url("../images/n17_code_icon01.png") no-repeat 4px -30px/23px;
+}
+.phone-con ul .n17_02{
+	background: url("../images/n17_code_icon02.png") no-repeat 4px 0px/23px;
+}
+.phone-con ul .n17_02:hover{
+	background: url("../images/n17_code_icon02.png") no-repeat 4px -30px/23px;
+}
+.phone-con ul li a{
+	color: #000;
+	font-size: 14px;
+}
+.phone-con ul li img{
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	z-index: 1;
+	opacity: 0;
+}
+.phone-con ul li:hover img{
+	opacity: 1;
+}
